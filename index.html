@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="3DELDA — piezas únicas impresas en 3D." />
+    <title>3DELDA · Impresión 3D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#inicio" aria-label="3DELDA, inicio">3D<span>ELDA</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="#galeria">Galería</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Diseño · prototipado · impresión 3D</p>
+          <h1>Ideas que se<br /><em>pueden tocar.</em></h1>
+          <p class="intro">Bienvenido a 3DELDA. Aquí comparto mis piezas, pruebas y proyectos impresos capa a capa.</p>
+          <a class="button" href="#galeria">Ver proyectos <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-object" aria-hidden="true">
+          <div class="ring ring-a"></div>
+          <div class="ring ring-b"></div>
+          <div class="cube"><i></i><b></b><strong></strong></div>
+          <p>HECHO EN<br />ELDA · ESPAÑA</p>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="galeria">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Galería</p>
+          <h2>Últimas piezas</h2>
+          <p>Cada proyecto empieza como una idea y termina convertido en objeto.</p>
+        </div>
+        <div class="gallery">
+          <article class="card card-tall">
+            <div class="photo photo-goofy"><span class="sr-only">Figura Goofy urbana impresa en 3D</span></div>
+            <div class="card-meta"><h3>Figura Goofy urbana</h3><p>Impresión 3D · 2026</p></div>
+          </article>
+          <article class="card">
+            <div class="photo photo-2"><span class="sr-only">Pieza impresa en 3D</span></div>
+            <div class="card-meta"><h3>Proyecto 3DELDA</h3><p>Impresión 3D · 2026</p></div>
+          </article>
+          <article class="card">
+            <div class="photo photo-3"><span class="sr-only">Pieza impresa en 3D</span></div>
+            <div class="card-meta"><h3>Proyecto 3DELDA</h3><p>Impresión 3D · 2026</p></div>
+          </article>
+          <article class="card card-wide">
+            <div class="photo photo-4"><span class="sr-only">Pieza impresa en 3D</span></div>
+            <div class="card-meta"><h3>Proyecto 3DELDA</h3><p>Impresión 3D · 2026</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="process" id="proceso">
+        <p class="eyebrow">02 / El proceso</p>
+        <div class="process-grid">
+          <h2>De la pantalla<br />a la <em>realidad.</em></h2>
+          <ol>
+            <li><span>01</span><div><h3>Diseño</h3><p>La idea toma forma en digital.</p></div></li>
+            <li><span>02</span><div><h3>Impresión</h3><p>Capas precisas, una tras otra.</p></div></li>
+            <li><span>03</span><div><h3>Acabado</h3><p>Detalles que hacen única cada pieza.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact" id="contacto">
+        <p class="eyebrow">03 / Contacto</p>
+        <h2>¿Tienes una idea<br />para imprimir?</h2>
+        <p>Escríbeme y cuéntame tu proyecto.</p>
+        <a class="button light" href="mailto:manoloco1973elda@gmail.com">Hablemos <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer><a class="logo" href="#inicio">3D<span>ELDA</span></a><p>© <span id="year"></span> · Impresión 3D</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
